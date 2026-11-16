@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sounds of San Ramon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <p>SAN RAMON, CALIFORNIA</p>
+      <h1>Sounds of San Ramon</h1>
+      <p class="description">this is a soundscape of my hometown San Ramon in Northern California. All the combined sounds are typically what my day sounded like.</p>
+    </header>
+
+    <section class="photo-section">
+      <img id="photo" src="https://commons.wikimedia.org/wiki/Special:FilePath/San_Ramon_View.jpg?width=1100" alt="A view of the San Ramon valley">
+      <div class="photo-caption">
+        <h2 id="sceneName">Morning in the valley</h2>
+        <span id="sceneTime">Morning</span>
+      </div>
+    </section>
+
+    <section class="player">
+      <div class="player-top">
+        <h2>Listen to San Ramon</h2>
+        <span id="timeDisplay">0:00 / 1:15</span>
+      </div>
+      <div class="controls">
+        <button id="playButton" type="button">Play</button>
+        <input type="range" id="timeline" min="0" max="75" value="0" aria-label="Soundscape timeline">
+      </div>
+    </section>
+
+    <section class="sounds">
+      <h2>Sounds</h2>
+      <ul>
+        <li>Valley wind</li>
+        <li>Birds chirping</li>
+        <li>School bell</li>
+        <li>Walking and talking crowd</li>
+        <li>Cars driving by</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <span>Sounds of San Ramon</span>
+    <span>Photos: <a href="https://commons.wikimedia.org/wiki/File:San_Ramon_View.jpg">ShakataGaNai</a> · <a href="https://commons.wikimedia.org/wiki/File:SanRamonPanorama.jpg">Wikimedia Commons</a> · <a href="https://commons.wikimedia.org/wiki/File:San_Ramon_Intermodal_Transit_Center_01.jpg">Wikimedia Commons</a></span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
